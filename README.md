@@ -5,7 +5,7 @@ sudo apt-get install node.js //install node.js package in your machine
 use npm init // to create package.json file
 
 
-#index.html
+index.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +44,7 @@ use npm init // to create package.json file
 </body>
 </html>
 
-#main.js
+main.js
 
 let Peer = require('simple-peer')
 let socket = io()
@@ -151,7 +151,7 @@ document.querySelector('#messagedisplay').innerHTML += "<div><br>"+data.name+":"
 
 
 
-#server.js
+server.js
 
 var express = require('express')
 var app = express()
