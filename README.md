@@ -1,12 +1,11 @@
 # video-voice-and-chat-application
-Open VSCode
 
 sudo apt-get install node.js //install node.js package in your machine
 
 use npm init // to create package.json file
 
 
-create #index.html and paste the below code
+#index.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +43,6 @@ create #index.html and paste the below code
     <script src="bundle.js"></script>
 </body>
 </html>
-
 
 #main.js
 
